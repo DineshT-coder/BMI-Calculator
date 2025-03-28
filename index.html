@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DDT | BMI Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>BMI Calculator</h1>
+  </header>
+
+  <main>
+    <div id="bmi-container">
+      <form id="bmi-form">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <select id="gender" required>
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <input type="number" id="age" placeholder="Age" required>
+        <div class="height-input">
+          <input type="number" id="height-ft" placeholder="Height (ft)" style="display: none;" required>
+          <input type="number" id="height-cm" placeholder="Height (cm)" required>
+          <button type="button" id="toggle-height" onclick="toggleHeightUnit()">Switch to ft</button>
+        </div>
+        <input type="number" id="weight" placeholder="Weight (kg)" required>
+        <button type="button" onclick="calculateBMI()">Calculate</button>
+        <button type="button" onclick="resetForm()" class="reset-btn">Reset</button>
+      </form>
+
+      <div id="result-container">
+        <p id="result" style="display: none;"></p>
+        <div id="full-speedometer">
+          <div class="needle"></div>
+          <div class="center-point"></div>
+          <div class="segment-text low">Low</div>
+          <div class="segment-text normal">Normal</div>
+          <div class="segment-text overweight">Overweight</div>
+          <div class="segment-text obese">Obese</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>©2024 Dinesh Dharshan Thangavel. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

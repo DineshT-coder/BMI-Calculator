@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../images/body.bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header, footer {
+    background-image: url(../images/header.bg.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #bmi-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  #bmi-container
+  {
+    background-image: url(../images/bmi.bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: #28a745; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px auto;
+  }
+  
+  button.reset-btn {
+    background: #dc3545; 
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .height-input button {
+    background: #ffc800;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #full-speedometer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: conic-gradient(
+      rgb(0, 190, 35) 0% 25%, 
+      rgb(255, 0, 0) 25% 50%, 
+      orange 50% 75%, 
+      rgb(150, 96, 96) 75% 100%
+    );
+  }
+  
+  .segment-text {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .low {
+    top: 25%; 
+    left: 30%; 
+  }
+  
+  .normal {
+    top: 25%;
+    left: 70%;
+  }
+  
+  .overweight {
+    bottom: 22%;
+    left: 72%; 
+  }
+  
+  .obese {
+    top: 70%;
+    left: 28%; 
+  }
+  
+  .needle {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    width: 4px;
+    height: 80px;
+    background: black;
+    transform-origin: bottom center;
+    transform: rotate(-90deg); 
+    transition: transform 1.5s ease-in-out;
+  }
+  
+  .center-point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #343a40;
+    border-radius: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+  
