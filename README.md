@@ -1,4 +1,4 @@
-# BMI Calculator with Dynamic Needle Animation
+# BMI Calculator 
 
 Welcome to the **BMI Calculator** project! This application is designed to provide a visually appealing, user-friendly experience while calculating Body Mass Index (BMI) based on input weight and height. With dynamic needle animation and custom aesthetics, it offers an engaging way to track health metrics.
 
