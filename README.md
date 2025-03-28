@@ -53,6 +53,8 @@ https://dinesht-coder.github.io/BMI-Calculator/
 
 ![image](https://github.com/user-attachments/assets/4c189079-b00f-491f-b6bc-5c1fc0540221)
 
+![image](https://github.com/user-attachments/assets/d77bb68d-4f72-4e59-9108-0d42f5909668)
+
 
 
 ---
