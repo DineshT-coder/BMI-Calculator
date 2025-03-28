@@ -45,10 +45,13 @@ Welcome to the **BMI Calculator** project! This application is designed to provi
 
 ## Preview
 
+https://dinesht-coder.github.io/BMI-Calculator/
 
 ---
 
 ## Screenshot
+
+![image](https://github.com/user-attachments/assets/4c189079-b00f-491f-b6bc-5c1fc0540221)
 
 
 
